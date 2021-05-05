@@ -543,6 +543,16 @@ div {
 {
     color:#f0f0f0f0;
 }
+
+#Special_note
+{
+    text-align: center;
+    font-size:3vw;
+}
+#Special_note_sir
+{
+    color:#e74c3c;
+}
 footer {
     background-color: black;
     overflow: hidden;

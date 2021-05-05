@@ -1,186 +1,442 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C++||Programming Guider</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <link rel="stylesheet" type="text/css" href="CppStyle.css">
+    <link rel="shortcut icon" href="photos/Programming Baller.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Programming Guider</title>
     <style>
-        html {
-            scroll-behavior: smooth;
-        }
+      html
+      {
+        scroll-behavior: smooth;
+      }
     </style>
 </head>
-
-
 <body>
-    <header>
-        <h1>Programming Guider</h1>
-    </header>
-
+  
+    <div class="header_logo">
+        <img id="logo_programming_guider" src="photos/LOGO.png" alt="logo">
+    </div> 
+    
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <a class="navbar-brand" href="index.html">Back</a>
+    
+        <a class="navbar-brand" href="#">HOME</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#book_sec">Books</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#ide_sec">IDE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#web_sec">Websites</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item" >
+              <a class="nav-link" href="#lang">Language</a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link" href="#dev">Develpoment</a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link" href="#dsa">DSA</a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link" href="#CP">Competitive Programming</a>
+            </li>    
+            <li class="nav-item" >
+              <a class="nav-link" href="#FCR">Free resources</a>
+            </li>
+          </ul>
+        </div>  
+      </nav>
+    
+      <br>
+      <section>
+       
+        <div class="container">
+          <div id="myslideshow" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="photos/programming guider.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="photos/programming guider (1).png" alt="Second slide">
+              </div>
+              <div class="carousel-item ">
+                <img class="d-block w-100" src="photos/programming guider (2).png" alt="Third slide">
+              </div>
+              <div class="carousel-item ">
+                <img class="d-block w-100" src="photos/programming guider (4).png" alt="Third slide">
+              </div>
+            </div>
+          </div>
         </div>
-    </nav>
+      <section>
+        <br>
+        <br>
+      </section>
+      <strong><h1  id="pro_guider"style="text-align: center;">Programming Guider</h1></strong>
+       <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <p style="font-size: 1.7vw;">Our goal is to help upcomming students and fellowmates <b>how to get started with programming.</b>This paltform helps you to provide all kind of guidance and useful resources at the <b>ZERO cost</b>. By following the roadmap you can easily accuire skills in the area of Technological development.There are many students who looking for good MNC but don't know how to get started? this platform helps you to <b>achieve more.</b></p>
+            <div class="text-center">
+              <a target="_blank" href="https://www.geeksforgeeks.org/introduction-to-programming-languages/"><button type="button" class="btn btn-danger">Explore now</button></a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <img src="photos/webdev2.jpg" width="100%">
+          </div>
+        </div>
+       </div>
+      </section>
     <main>
-        <section id="logo_sec">
-            <img src="cpp.png" class="rounded mx-auto d-block" alt="C++ Image">
+        <section id="lang">
+            <h1>Languages</h1>
+            <div class="box-area">
+              <div class="single-box">
+                <div class="img-area"></div>
+                  <div class="img-text">
+                    <span class="header-text"><strong>Python</strong></span>
+                    <p>Python is an interpreted high-level programming language</p>
+                    <b><div class="clickhereinsinle-box"><a href="https://www.geeksforgeeks.org/best-way-to-start-learning-python-a-complete-roadmap/"><button type="button" class="btn btn-danger">Click here</button></a></div></b>
+                  </div>
+                
+              </div>
+          
+              <div class="single-box">
+                <div class="img-area"></div>
+                  <div class="img-text">
+                    <span class="header-text"><strong>C lang</strong></span>
+                    <p>C is a powerful general-purpose programming language.</p>
+                    <b><div class="clickhereinsinle-box"><a href="https://www.geeksforgeeks.org/c-programming-for-beginners-a-20-day-curriculum/"><button type="button" class="btn btn-danger">Click here</button></a></div></b>
+                  </div>
+          
+          
+              </div>
+          
+              <div class="single-box">
+                <div class="img-area"></div>
+                  <div class="img-text">
+                    <span class="header-text"><strong>C++</strong></span>
+                    <p>C++ is a general-purpose programming language.</p>
+                    <b><div class="clickhereinsinle-box"><a href="c++.html"><button type="button" class="btn btn-danger">Click here</button></a></div></b>
+                  </div>
+          
+                
+              </div>
+          
+              <div class="single-box">
+                <div class="img-area"></div>
+                  <div class="img-text">
+                    <span class="header-text"><strong>Java</strong></span>
+                    <p>Java is a class-based, object-oriented programming language.</p>
+                    <b><div class="clickhereinsinle-box"><a href="java.html"><button type="button" class="btn btn-danger">Click here</button></a></div></b>
+
+                  </div>
+          
+                
+              </div>
+          
+            </div>
+            
         </section>
 
-        <section id="head_install">
-            <h1>For downloading C++ compiler.Go through this.</h1>
-            <div class="videos">
-                <iframe width="33%" src="https://www.youtube.com/embed/0yn7irrHzM8" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+        
+        
+        <section id="dev">
+            <h1>DEVLOPMENT</h1>
+            <div class="box-area-2">
+              <div class="single-box-2">
+                <div class="img-area"></div>
+                  <div class="img-text">
+                    <span class="header-text"><strong>Web Devlopment</strong></span>
+                    <p>Web development is the work involved in developing a Web site.</p>
+                    <a href="https://www.youtube.com/watch?v=GLk7-imcjiI&t=353s"><button type="button" class="btn btn-danger">Click here</button></a>
+                  </div>
+                
+              </div>
+          
+              <div class="single-box-2">
+                <div class="img-area"></div>
+                  <div class="img-text">
+                    <span class="header-text"><strong>Andriod Dev</strong></span>
+                    <p>Create applications for devices running the Android operating system</p>
+                    <a href="https://www.youtube.com/watch?v=VaMWsm6CFss&t=17s"><button type="button" class="btn btn-danger">Click here</button></a>
+                  </div>
+          
+          
+              </div>
+          
+              <div class="single-box-2">
+                <div class="img-area"></div>
+                  <div class="img-text">
+                    <span class="header-text"><strong>Machine Learning</strong></span>
+                    <p id="">Machine learning is the study of computer algorithms.</p>
+                    <a href="https://www.youtube.com/watch?v=mlxoB3wI9eY&t=28s"><button type="button" class="btn btn-danger">Click here</button></a>
+                  </div>
+          
+                
+              </div>
+          
+          
+            </div>
+           
+    
+        </section>
+
+        <section id="dsa">
+            <h1 id="dsahead">Data Sturctures & Algortihms</h1>
+            <h2 id="Prerequsite">Prerequsite</h2>
+            <ul>
+                <li>Know any Programming Language like <b>(C, C++, Python, Java)</b>.</li>
+                <b><li>Basic Mathematics.</li></b>
+                <li>Good knowledge of <b>Memory Allocation</b> in Language.</li>
+                <li>syntax of Language very well known.</li>
+                <li> Have some patience &#128515;</li>
+            </ul>
+            <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" id="RESOURCES"><u>RESOURCES</u></h3>
+            <div class="GEEKSFORGEEKS">
+             <div class="w3-panel w3-round-large w3-green">
+                <div class="w3-container w3-metro-green">
+                    <h1 style="text-align: left;">GEEKSFORGEEKS </h1>
+                    <img style="text-align: center;"src="photos/gfg2.png" alt="cp image" width="30%" >
+                    <p style="font-size:3vw;" id="gfg">
+                        <b id="gfg1">GEEKSFORGEEKS |A computer science portal for geeks</b> is the best website to learn everything just for free.
+                    </p>
+                    <div id="gfgbutton">
+                      <a target="b_blank"href="https://www.geeksforgeeks.org/data-structures/"><button type="button" class="btn btn-danger">Click here</button></a>    
+                    </div>   
+                </div>
+             </div>
             </div>
 
+            <hr style="height:10px;border-width:3px;color:gray;background-color:rgb(57, 224, 79)">
+                
+            <div class="codechef">
+              <div class="w3-panel w3-round-large w3-orange">
+                 <div class="w3-container w3-metro-dark-orange">
+                     <h1 style="text-align: center;">CODECHEF </h1>
+                     <img style="text-align: center;"src="photos/codechef.png" alt="cp image" width="30%" >
+                     <p style="font-size:3vw;" id="gfg">
+                      <b id="CodeChef1">CodeChef</b> playlist also help you to build strong grip on topics by solving maximum number of questions.
+                     </p>
+                     <div id="codechefbutton">
+                       <a target="b_blank"href="https://www.codechef.com/certification/data-structures-and-algorithms/prepare"><button type="button" class="btn btn-danger">Click here</button></a>    
+                     </div>   
+                 </div>
+              </div>
+             </div>
+            
+             <hr style="height:10px;border-width:3px;color:gray;background-color:rgb(224, 118, 57)">
+            <div id="dsa_youtubechannels_logo">
+              <img src="photos/CHANNEL.png" alt="channel">
+            </div>
+      
+            <div>
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a  target="_blank"href="https://www.youtube.com/channel/UCu4ztYtW-Bg1KIfcLAULtVQ"><img src="photos/Data Structure by Saurabh Shukla Sir.png"></a>
+                </div>
+        
+                <div class="item">
+                  <a target="_blank" href="https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ"><img src="photos/Untitled design.png"></a>
+                    
+                </div>
+        
+                <div class="item">
+                  <a target="_blank" href="https://www.youtube.com/watch?v=4iFALQ1ACdA"><img src="photos/Sir love Babar DSA.png"></a>
+                </div>
+        
+                <div class="item">
+                    <a target="_blank" href="https://www.youtube.com/c/takeUforward/featured"><img src="photos/Data Structure by striver_79.png"></a>
+                </div>
+        
+                <div class="item">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=N89PN_uyelU&list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p"><img src="photos/dsa by anuj bhaiya.png"></a>
+                </div>
+        
+                <div class="item">
+                  <a target="_blank" href="https://www.youtube.com/channel/UC9fDC_eBh9e_bogw87DbGKQ"><img src="photos/DSa by rachit.png"></a>
+                </div>
+        
+                <div class="item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw"><img src="photos/dsa by gaurav sen.png"></a>
+                </div>
+        
+                <div class="item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UC0RhatS1pyxInC00YKjjBqQ"><img src="photos/dsa by gfg.png"></a>
+                </div>
+                
+             </div>
+            </div>
+        
+            <br>
+            <hr style="height:1px;border-width:5px;color:gray;background-color:gray">
+            <h4 id="note">NOTE-* if you follow this resources you will definately grasp your hand on data Sturctures and Algortihms</h4>
+            <hr style="height:1px;border-width:5px;color:gray;background-color:gray">
+        </section>  
+        <br>  
+      <section>
+
+        
+      </section>
+  
+        <span id="arrow">&#8681;</span>
+
+      <section id="CP">
+          <h1>Competitive Programming</h1>
+          <div class="subscribe-area ptb-100">
             <div class="container">
-                <hr>
-                <h2 class="text-center">Steps To Download GCC compiler for Windows.</h1>
-                    To install GCC at Windows you need to install MinGW. To install MinGW, go to the MinGW homepage,<a
-                        href="https://sourceforge.net/projects/mingw/"> www.mingw.org</a>, and follow the link to the
-                    MinGW download page. Download the latest version of the MinGW installation program which should be
-                    named MinGW-<version>.exe.
-
-                        While installing MinGW, at a minimum, you must install gcc-core, gcc-g++, binutils, and the
-                        MinGW runtime, but you may wish to install more.
-
-                        Add the bin subdirectory of your MinGW installation to your PATH environment variable so that
-                        you can specify these tools on the command line by their simple names.
-
-                        When the installation is complete, you will be able to run gcc, g++, ar, ranlib, dlltool, and
-                        several other GNU tools from the Windows command line.
+              <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                  <div class="cp-image">
+                    <img id="fk" src="photos/our-mission-shape1-42a0525040b7051385b89e072d6cbf5a.png">
+                    <img id="subscribe-image-hai" src="photos/cp section photo.jpg" alt="subscribe">
+                  </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-12">
+                  <div class="subscribe-content"><h2 id="subscribe-content-h2">Competitive programming is a mind sport</h2><p>Competitive programming is a mind sport usually held over the Internet or a local network, involving participants trying to program according to provided specifications. Contestants are referred to as sport programmers. Competitive programming is recognized and supported by several multinational software and Internet companies, such as <b>FAANG</b> .</p>
+                    <p><h2>Prerequsite</h2> when you have good knowledge of Data Sturctures and Algortihms then you can easily ace this field.<!-- --> </p>
+                    <a target="_blank"href="https://www.geeksforgeeks.org/how-to-prepare-for-competitive-programming/"><button type="button" class="btn btn-danger">Click here</button></a>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
-
-        <section id="book_sec">
-            <h1>Books Recommended for C++</h1>
-            <img src="photos/CppBook.jpg" alt="EBalagurusamy">
-            <img src="photos/CppBook2.jpg" alt="Bjarne">
-            <div class="container" id="book_description">
-                <hr>
-                We are recommending these Books because of our Experience and We also studied from them...
             </div>
-        </section>
+      </section>
 
-        <section id="ide_sec">
-            <h1>Best IDE's or Code Editors for C++</h1>
-            <div class="container" id="ide_img">
-                <hr>
-                <img src="photos/vscode.png" alt="vscode">
-                <img src="photos/codeblock.png" alt="cdblock">
-                <img src="photos/devcpp.jpg" alt="devcpp">
-                <img src="photos/sublime.png" alt="sublime">
-                <img src="photos/eclipse.png" alt="eclipse">
-                <img src="photos/atom.jpeg" alt="atom">
-                <hr>
+      <section id="FCR">
+         <h1 style="color:greenyellow">Free courses platform</h1>
+         <div>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a  target="_blank"href="https://www.youtube.com/watch?v=LywLyuO6OPY"><img src="photos/free coursera.png"></a>
             </div>
-        </section>
-
-        <section id="websec">
-            <h1>Best Website For Learning</h1>
-            <div class="container" id="website_img">
-                <a href="https://www.geeksforgeeks.org/cpp-tutorial/" target="_blank">
-                    <img src="photos/gfg2.png" alt="gfg" width="60%">
-                </a><br>
-
-                <a href="https://www.javatpoint.com/cpp-tutorial" target="_blank">
-                    <img src="photos/javaTpointimg2.png" alt="javatpoint" width="50%"> </a><br>
-
-                <a href="https://www.tutorialspoint.com/cplusplus/index.htm" target="_blank"> <img width=33%
-                        src="photos/tutpointimg.png" alt="tutpoint" width="70%"></a>
-
-                <a href="https://www.tutorialspoint.com/cplusplus/index.htm" target="_blank"> <img width=33%
-                        src="photos/w3schools.jpg" alt="tutpoint" width="70%"></a>
-                <h3>click on images for more info.</h3>
+    
+            <div class="item">
+              <a target="_blank" href="https://www.datacamp.com/"><img src="photos/free datacamp.png"></a>
+                
             </div>
-        </section>
-
-        <section id="vidsec">
-            <h1>Video lectures</h1>
-            <div class="videos">
-                <iframe width="33%"
-                    src="https://www.youtube.com/embed/ntLJmHOJ0ME?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <h3 style="padding-top: 0px;">for full playlist <a
-                        href="https://www.youtube.com/watch?v=eIrMbAQSU34">click here..</a></h3>
+    
+            <div class="item">
+              <a target="_blank" href="https://www.edx.org/"><img src="photos/free edx.png"></a>
             </div>
-
-            <div class="videos">
-
-                <iframe width="33%"
-                    src="https://www.youtube.com/embed/lxja8wBwN0k?list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <h3 style="padding-top: 0px;">for full playlist <a
-                        href="https://www.youtube.com/watch?v=lxja8wBwN0k&list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s">click
-                        here..</a></h3>
-
+    
+            <div class="item">
+                <a target="_blank" href="https://www.geeksforgeeks.org/learn-with-geeksforgeeks-course-best-courses-to-land-job-in-your-dream-company/"><img src="photos/free gfg.png"></a>
             </div>
-
-            <div class="videos">
-                <iframe width="33%"
-                    src="https://www.youtube.com/embed/WOUpjal8ee4?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <h3 style="padding-top: 0px;">for full playlist <a
-                        href="https://www.youtube.com/watch?v=zIdg7hkqNE0&list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q&index=2">click
-                        here..</a></h3>
+    
+            <div class="item">
+                <a target="_blank" href="https://www.youtube.com/channel/UCBm0hPI-ykEloE6c8Tf15Vw"><img src="photos/free tricky man.png"></a>
             </div>
-        </section>
-    </main>
+    
+            <div class="item">
+              <a target="_blank" href="https://www.khanacademy.org/"><img src="photos/free khan academy.png"></a>
+            </div>
+    
+            <div class="item">
+                <a target="_blank" href="https://www.udacity.com/blog/category/free-courses"><img src="photos/free udacity.png"></a>
+            </div>
+    
+            <div class="item">
+                <a target="_blank" href="https://www.youtube.com/"><img src="photos/free youtube.png"></a>
+            </div>
+            
+         </div>
+        </div>
+      </section>
+      <h1 id="teamsection"style="text-align: center;">Our Team</h1>
+    <section class="team-section">
+      <div class="card">
+        <div class="bg-image">
+          <img src="photos/5238994.jpg" alt="bg_img">
+        </div>
+        <div class="pic">
+          <img src="photos/ROHAN.jpg" alt="rohan_img">
+        </div>
+        <div class="info">
+          <h1 id="rohankumarteamsection">Rohan Kumar</h1>
+          <span><i class="fas fa-code"></i>Web developer</span>
+        </div>
+        <div class="icon">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="https://www.linkedin.com/in/starrohan999/" class="fab fa-linkedin"></a>
+          <a href="#" class="fab fa-github"></a>
+        </div>
+      </div>
 
-    <section id="byvipin">
-        <p>This page is contributed by <strong>VIPIN</strong> | <a target="b_block"
-                href="https://github.com/vipin2210">github</a> </p>
-
+      <div class="card">
+        <div class="bg-image">
+          <img src="photos/5238994.jpg" alt="bg_img">
+        </div>
+        <div class="pic">
+          <img src="photos/vipin.jpg" alt="rohan_img">
+        </div>
+        <div class="info">
+          <h1 id="vipinteamsection">Vipin</h1>
+          <span><i class="fas fa-code"></i>Web developer</span>
+        </div>
+        <div class="icon">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a target="_blank" href="https://www.linkedin.com/in/vipin-kumar121/" class="fab fa-linkedin"></a>
+          <a href="#" class="fab fa-github"></a>
+        </div>
+      </div>
     </section>
+    <br>
+    <p id="Special_note"><i class="fas fa-chalkboard-teacher"></i> Special Thanks to our Mentor <b id="Special_note_sir"><span>Shri Muneesh Meena</span></b> Sir.</p>
+       
+
+
+
     </main>
-
     <footer>
-        <a href="#">FAQ</a>&nbsp;&nbsp;
-        <a href="#">Contact Us</a>&nbsp;&nbsp;
-        <a href="#">Terms of Use</a>&nbsp;&nbsp;
-        <a href="#">Privacy Policy</a>&nbsp;&nbsp;
-        <a href="#">Refund Policy</a>&nbsp;&nbsp;
-        <a href="#">&copy; 2020 | Vipin</a>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">&copy; 2020 | Rohan Kumar</a>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+     $('.owl-carousel').owlCarousel({
+     loop:false,
+     margin:10,
+     nav:false,
+     responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+      }
+     })
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 </body>
-
 </html>

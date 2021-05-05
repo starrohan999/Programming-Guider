@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  padding: 10px;
+  margin: auto;
+  background-image: linear-gradient(to bottom, rgb(157, 180, 255), white);
+}
+
+header h1 {
+  font-size: 50px;
+  text-align: center;
+  color: black;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+
+}
+
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color:white;
+  
+}
+
+nav a:hover {
+  background-color: rgb(235, 94, 0);
+  color: black;
+  
+}
+.nav-item a:hover
+{
+  color: black;
+}
+
+#logo_sec {
+  margin: 10px 0px;
+  height: 30vh;
+  background-color: rgb(235, 238, 247);
+  justify-content: center;
+}
+
+#logo_sec img {
+  width: 180px;
+  margin: auto;
+  text-align: center;
+}
+
+#head_install {
+  background-color: rgb(218, 179, 255);
+  padding-bottom: 40px;
+}
+
+.videos {
+  text-align: center;
+}
+
+main {
+  background-color: #faf8f8;
+}
+
+main h1,
+h3 {
+  padding-top: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#book_sec {
+  text-align: center;
+  padding-bottom: 40px;
+  background-color: rgb(255, 228, 188);
+}
+
+#book_sec img {
+  height: 300px;
+  width: auto;
+  margin: 10px;
+  box-shadow: 10px 5px 5px black;
+}
+
+#book_description {
+  font-size: 30px;
+}
+
+#ide_img {
+  padding: 50px;
+}
+#ide_sec img {
+  height: 100px;
+  width: auto;
+  margin: 10px;
+  box-shadow: 10px 5px 5px black;
+}
+
+#website_img {
+  margin-left: 30%;
+}
+#websec {
+  background-color: #ffff8d;
+}
+
+#vidsec{
+    background-color:skyblue ;
+}
+
+#vidsec iframe{
+ margin: auto;
+}
+
+#byvipin {
+  text-align: center;
+}
+
+footer {
+  background-color: #333333;
+  display: block;
+  height: 75px;
+  padding: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}

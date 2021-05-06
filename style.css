@@ -547,11 +547,22 @@ div {
 #Special_note
 {
     text-align: center;
-    font-size:3vw;
+    font-size:2vw;
 }
 #Special_note_sir
 {
     color:#e74c3c;
+}
+.content-form
+{
+    background-color: #282b29;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#fill_form
+{
+    text-align: center;
+    font-size:2vw;
 }
 footer {
     background-color: black;
